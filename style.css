@@ -1,0 +1,356 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/background.webp);
+    background-position: 0 0;
+    background-size: cover;
+    width: 100%;
+    /* background-image: linear-gradient(to right,rgb(103, 43, 243),rgb(38, 212, 227)); */
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+.navbarr{
+    display: flex;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 245px;
+    margin-top: 9px;
+}
+#logo{
+    width: 200px;
+    height: 200px;
+    margin-left: -25px;
+    margin-top: 166px;
+    position: absolute;
+}
+
+.logo:hover{
+    scale: 1.4;
+    transition: 0.4s ease-in-out;
+}
+
+
+.links{
+    margin-top: 35px;
+    margin-left: 118px;
+}
+.links a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.loginbtn{
+    margin-left: 190px;
+    border-radius: 50px;
+    border: 0px solid white;
+    width: 100px;
+    height: 45px;
+}
+.links a:hover{
+    text-decoration: underline;
+    color: rgb(136, 226, 10);
+    scale: 1.4;
+    transition: 0.4s ease;
+}
+
+.loginbtn:hover{
+    color: blue;
+}
+
+.bannee h1{
+    color: white;
+    margin-left: 220px;
+    margin-top: 100px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 2000;
+    font-style: normal;
+    font-size: 70px;
+}
+.bannee p{
+    margin-left: 220px;
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.test{
+    display: flex;
+    background-image: url(./images/staaaaaars.webp);
+}
+
+.banimg img{
+    width: 800px;
+    height: 500px;
+    margin-top: 30px;
+    background-image: url(./images/staaaaaars.webp);
+}
+.buttonss{
+    
+    margin-left: 350px;
+    margin-top: 30px;
+    background-image: url(./images/staaaaaars.webp);
+}
+.btn1{
+    border-radius: 50px;
+    border: 0px solid white;
+    width: 292px;
+    height: 64px;
+    margin: 50px;
+    font-weight: bolder;
+    background-image: url(./images/staaaaaars.webp);
+    
+}
+.btn1:hover{
+    color: #5865F2;
+    transition: 0.4s ease;
+}
+
+.btn2{
+    border-radius: 50px;
+    border: 0px solid white;
+    width: 292px;
+    height: 64px;
+    background-color: darkblue;
+    color: white;
+    font-weight: bolder;
+}
+.btn2:hover{
+    box-shadow: 2px 4px 8px darkblue;
+    transition: 0.4s ease;
+}
+
+.videos{
+    display: flex;
+    border: 3px solid #819af4;
+    width: 80%;
+    margin-left: 120px;
+    border-radius: 50px;
+    margin-top: 190px;
+    background-color: #486cec;
+    background-image: url(./images/staaaaaars.webp);
+}
+.videos video{
+    width: 1128px;
+    height: 502px;
+    margin-left: 26px;
+    margin-top: 27px;
+    margin-bottom: 19px;
+    border-radius: 60px;
+    
+}
+
+.vidtext h1{
+    color: white;
+    width: 60%;
+    margin-left: 90px;
+    margin-top: 90px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 2000;
+    font-style: normal;
+}
+
+.vidtext p{
+    color: white;
+    width: 60%;
+    margin-left: 90px;
+    margin-top: 20px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 2000;
+    font-style: normal;
+}
+
+.lastpic{
+    background-image: url(./images/staaaaaars.webp);
+}
+
+.you{
+    background-image: url(./images/staaaaaars.webp);
+}
+
+.gif{
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: 100px;
+    z-index: -1;
+    width: 150px;
+}
+.gif2{
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: 100px;
+    width: 150px;
+}
+.gif3{
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: 100px;
+    width: 150px;
+}
+.gif4{
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: 100px;
+    width: 150px;
+}
+
+#box{
+    width: 368px;
+    margin-left: 1045px;
+    margin-top: 8px;
+}
+#box2{
+    width: 248px;
+    margin-left: 833px;
+    margin-top: 189px;
+}
+#box3{
+    width: 248px;
+    margin-left: 1033px;
+    margin-top: 170px;
+    z-index: -1;
+}
+
+.you h1{
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 2000;
+    font-style: normal;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.windowsbtn{
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    border-radius: 50px;
+    border: 0px;
+    width: 300px;
+    height: 50px;
+    background-color: #5865F2;
+    color: white;
+}
+.windowsbtn:hover{
+    box-shadow: 2px 4px 8px darkblue;
+    transition: 0.4s ease;
+}
+
+#cutey{
+    position: absolute;
+    left: 41%;
+    top: 6321px;
+    width: 238px;
+}
+#cutey2{
+    position: absolute;
+    left: 46%;
+    top: 6250px;
+    width: 86px;
+}
+
+.example1 {
+    margin-top: 190px;
+    height: 200px;	
+    overflow: hidden;
+    position: relative;
+    background-image: url(./images/background\ line.webp);
+    
+    display: flex;
+   }
+
+   .example1 i{
+    font-size: 21px;
+    margin: 50px;
+    margin-top: 21px;
+   }
+   .example1 h3 {
+    display: flex;
+    color: white;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    padding-top: 70px;
+    line-height: 50px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    
+    /* Starting position */
+    -moz-transform:translatex(100%);
+    -webkit-transform:translateX(100%);	
+    transform:translateX(100%);
+    /* Apply animation to this element */	
+    -moz-animation: example1 25s linear infinite;
+    -webkit-animation: example1 25s linear infinite;
+    animation: example1 55s linear infinite;
+   }
+   /* Move it (define the animation) */
+   @-moz-keyframes example1 {
+    0%   { -moz-transform: translateX(100%); }
+    100% { -moz-transform: translateX(-100%); }
+   }
+   @-webkit-keyframes example1 {
+    0%   { -webkit-transform: translateX(100%); }
+    100% { -webkit-transform: translateX(-100%); }
+   }
+   @keyframes example1 {
+    0%   { 
+    -moz-transform: translateX(100%); /* Firefox bug fix */
+    -webkit-transform: translateX(100%); /* Firefox bug fix */
+    transform: translateX(100%); 		
+    }
+    100% { 
+    -moz-transform: translateX(-100%); /* Firefox bug fix */
+    -webkit-transform: translateX(-100%); /* Firefox bug fix */
+    transform: translateX(-100%); 
+    }
+   }
+
+   .footerr{
+    background-image: linear-gradient(to right,#899AE5,#3C4496);
+    padding-top: 100px;
+    
+   }
+
+   .texs h6,p{
+    color: white;
+    text-decoration: none;
+   }
+
+   .texs h6:hover{
+    text-decoration: underline;
+   }
+   .texs p:hover{
+    text-decoration: underline;
+   }
+   .btnn{
+    margin-left: 928px;
+    border-radius: 50px;
+    color: white;
+    background-color: #3D46A1;
+    width: 132px;
+    height: 49px;
+    border: 0px;
+   }
+
+   .btnn:hover{
+    background-color: #7289DA;
+    transition: 0.4s ease;
+   }
+
+   .logoo{
+    height: 100px;
+   }
+ 
